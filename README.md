@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Product Cart Application with React Redux ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a product cart system created with React and managed with Redux. The goal of this project is to create a product shopping cart similar to those found on various E-commerce sites.
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+- HTML
+- CSS
+- React
+- Redux
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Manage the state of the cart & products with Redux
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Add new products to the list with the product information and image
 
-### `npm test`
+- Add products to the cart with the product information and image
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Disable the "Add to Cart" button if the product is out of stock
 
-### `npm run build`
+- Decrease the quantity of a product every time it is added to the cart
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Display the number of products added to the cart on the cart icon
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- View cart items and bill details on a separate section
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Adjust the quantity of products in the cart using plus and minus buttons
 
-### `npm run eject`
+- Calculate the total price of each product based on its quantity and display it in the cart
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Remove products from the cart if user click trash button
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Live Preview
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Click [here](https://product-cart-app-by-adnan-sarkar.netlify.app/) to view a live preview of the application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshots
 
-## Learn More
+![](Product%20Cart%20Application%20with%20React%20Redux.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Credits
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was completed as part of the `Think in a Redux Way` course on [learn with sumit](https://learnwithsumit.com/) platform. The HTML-CSS template used for the project was also provided by the platform.
