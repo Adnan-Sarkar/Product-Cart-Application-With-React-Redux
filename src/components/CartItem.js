@@ -56,7 +56,7 @@ const CartItem = ({ itemInfo }) => {
           <button
             className="lws-decrementQuantity"
             onClick={() => handleDecrementProduct(productId)}
-            disabled={quantity === 0}
+            disabled={quantity === 1}
           >
             <i className="text-lg fa-solid fa-minus"></i>
           </button>
